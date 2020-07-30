@@ -1,2 +1,2 @@
 # basmanentertainment
-Musci Blog
+Music Blog
