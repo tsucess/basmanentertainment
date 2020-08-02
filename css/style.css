@@ -1,0 +1,231 @@
+/* latin-ext */
+ @font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+
+  h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 3px;      
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #111;
+  }
+
+
+ .container-fluid{
+      background-color: #111;
+      padding: 0 30px;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  
+  .navbar li a, .navbar .navbar-brand { 
+    color: #ff2a4d !important;
+    font-size: 15px;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+    padding: 10px;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  
+  
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    margin: 0;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: #ff2a4d !important;
+  }
+
+  /* CAROUSEL SECTION**/
+
+.carousel-inner img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%); /* make all photos black and white */
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+} 
+/* @media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide 
+  } 
+}*/
+
+
+
+/* CONTAINER BAND SECTION * ***/
+
+ .title-center{
+    font-size: 3.5rem;
+    color: #ff2a4d;
+}
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+
+
+  /* FORM section */
+.form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  } 
+
+
+  
+   /* TOUR section */
+
+  .bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+    width: 60%;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #ff2a4d;
+    color: #000;
+  }
+ .modal-header, h4, .close {
+  background-color: #333;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-header, .modal-body {
+  padding: 40px 50px;
+}
+.nav-tabs li a {
+  color: #777;
+}
+#googleMap {
+  width: 100%;
+  height: 400px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}  
+
+  
+  
+  /* footer section */
+  
+  footer {
+    background-color: #161616;
+    color: #ff2a4d;
+    padding: 20px;
+    letter-spacing: 2px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+    font-weight: bold;
+    
+  }  
+  
+  footer .container {
+      width: 100%;
+      padding: 0;
+    margin: 0;
+  }
+  .social-icon {
+    text-align: center;
+  }
+  .social-icon ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .social-icon ul li a i {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .social-icon ul li a i:hover {
+    color: #ff2a4d;
+  
+  }  
+footer .padded-ul{
+      padding-left: 0px;
+  }
